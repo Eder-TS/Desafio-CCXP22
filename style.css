@@ -1,0 +1,83 @@
+body{
+    font-family: Verdana, sans-serif;
+
+    margin: 0px;
+}
+
+    header{
+        background-color: #FFD900;
+    }
+
+        header img{
+            width: 15%;
+            padding: 2% 0 2% 5%;
+        }
+
+    section{
+        display: grid;
+        grid-auto-flow: column;
+    }
+
+        section h1{
+            font-size: 45px;
+            font-weight: 700;
+
+            margin-top: 22px;
+        }
+
+            .upperCase{
+                text-transform: uppercase;
+            }
+
+        section h2{
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 0px;
+        }
+
+        #text{
+            background-color: #514988;
+
+            text-align: center;
+            color: white;
+
+            padding: 0 5% 0 5%;
+        }
+
+            #text h1{
+                color: #F3C61F;
+            }
+
+            #text p{
+                font-size: 20px;
+
+                padding-top: 5%;
+            }
+
+        #animation{
+            padding: 0 2% 2% 1%;
+        }
+
+            #countDownDisplay{
+                padding-left: 3%;
+            }
+
+                #countDown{
+                    display: grid;
+                    grid-auto-flow: column;
+                    
+                    color: #514988;  
+                }
+
+                    #countDown h1{
+                        margin-bottom: 0px;
+                    }
+
+                #countDownDisplay h2{
+                    color: #E33881;
+                }
+
+            section video{
+                width: 100%;
+                
+            }
