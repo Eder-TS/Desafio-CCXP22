@@ -18,11 +18,25 @@ body{
         grid-auto-flow: column;
     }
 
+    @media only screen and (max-width: 600px) {
+        section{
+            grid-auto-flow: row;
+        }
+    }
+
         section h1{
             font-size: 45px;
             font-weight: 700;
 
             margin-top: 22px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            section h1{
+                font-size: 35px;
+
+                margin-top: 15px;
+            }
         }
 
             .upperCase{
@@ -45,6 +59,12 @@ body{
             padding: 0 5% 0 5%;
         }
 
+        @media only screen and (max-width: 600px){
+            #text{
+                padding: 5px;
+            }
+        }
+
             #text h1{
                 color: #F3C61F;
             }
@@ -61,8 +81,6 @@ body{
 
             #countDownDisplay{
                 text-align: center;
-
-                padding-left: 3%;
             }
 
                 #countDown{
@@ -76,6 +94,14 @@ body{
                         margin-bottom: 0px;
                     }
 
+                    @media only screen and (max-width: 600px) {
+                        #countDown h1{
+                            font-size: 29px;
+
+                            margin-bottom: 0px;
+                        }
+                    }
+
                 #countDownDisplay h2{
                     color: #E33881;
                 }
@@ -87,8 +113,15 @@ body{
     footer{
         display: flex;
         flex-direction: row;
-        
+
         padding: 0 1% 0 2%;
+    }
+
+    @media only screen and (max-width: 600px) {
+        footer{
+            display: flex;
+            flex-direction: column;
+        }
     }
 
         #tickets{
